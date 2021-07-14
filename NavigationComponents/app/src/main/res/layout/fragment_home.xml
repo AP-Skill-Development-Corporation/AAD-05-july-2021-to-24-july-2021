@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_weight="3"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_weight="1"
+        android:text="Blue"
+        android:id="@+id/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<Button
+    android:background="#EA2020"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/red"
+    android:text="Red"
+    />
+    <Button
+        android:background="#36F43D"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/green"
+        android:text="Green"/>
+</LinearLayout>

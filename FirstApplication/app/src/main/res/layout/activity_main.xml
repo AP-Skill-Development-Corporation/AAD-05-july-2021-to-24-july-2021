@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E35555"
+    android:orientation="vertical"
+
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+    <Button
+        android:onClick="start"
+        android:id="@+id/start"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="START"/>
+    <Button
+        android:onClick="stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stop"
+        android:text="STOP"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datepicker"
+        android:onClick="opendatepicker"
+        android:id="@+id/datepicker"/>
+    <Button
+        android:onClick="opentimepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timepicker"
+        android:id="@+id/timepicker"/>
+
+
+  </LinearLayout>
